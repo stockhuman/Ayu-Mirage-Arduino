@@ -1,0 +1,177 @@
+# Ayu - Mirage by Ike Ku
+# @link https://github.com/dempfi/ayu
+#
+# Arduino IDE port by Michael Hemingway
+# @version 1.0.0
+# Sept. 22, 2018
+#
+# Documentation sourced from many places, especially
+# @see https://github.com/per1234/ThemeTest
+# @licence MIT
+
+# Base colors
+#
+# common.accent: 			#FFCC66
+# common.background: 	#212733
+# common.foreground: 	#CCC9C2
+# common.ui: 					#667380
+#
+# syntax.tag: 				#5CCFE6
+# syntax.func: 				#FFD580
+# syntax.entity: 			#73D0FF
+# syntax.string: 			#BAE67E
+# syntax.regexp: 			#95E6CB
+# syntax.markup: 			#F28779
+# syntax.keyword: 		#FFA759
+# syntax.special: 		#FFC44C
+# syntax.comment: 		#5C6773
+# syntax.constant: 		#D4BFFF
+# syntax.operator: 		#F29E74
+# syntax.error: 			#FF3333
+
+# GUI
+
+## Status
+
+# Non-error text color on the status bar.
+status.notice.fgcolor = #5C6773
+
+# Background color of the status bar when not in error mode.
+status.notice.bgcolor = #283543
+
+# Text color of the Status Bar in error mode
+status.error.fgcolor = #CCC9C2
+
+# Background color of the Status Bar in error mode.
+status.error.bgcolor = #FF3333
+
+# Doesn't appear to have any effect.
+status.edit.fgcolor = #CCC9C2
+
+# Doesn't appear to have any effect.
+status.edit.bgcolor = #F1B500
+
+# Status Bar text font. Default is 'SansSerif' instead of Monospaced
+status.font = IBM Plex Mono Light,plain,11
+
+## Tabs
+## settings for the code tabs at the top of the GUI
+## (tab images are stored in the lib/theme folder)
+
+# Color behind the tabs.
+header.bgcolor = #212733
+
+# Color of the currently selected tab text.
+header.text.selected.color = #CCC9C2
+
+# Color of the unselected tab text.
+header.text.unselected.color = #667380
+
+# Font of the Header text.
+header.text.font = IBM Plex Mono Light,plain,12
+
+## Console
+console.font = Consolas,plain,11
+console.font.macosx = Monaco,plain,10
+console.color = #1C222C
+console.output.color = #CCC9C2
+console.error.color = #E34C00
+
+## Buttons
+buttons.bgcolor = #283543
+buttons.status.font = SansSerif,plain,12
+buttons.status.color = #283543
+
+## Line Status
+linestatus.color = #CCC9C2
+linestatus.bgcolor = #39424E
+
+
+# EDITOR
+
+# Foreground and background colors.
+editor.fgcolor = #CCC9C2
+editor.bgcolor = #212733
+
+# Enable line highlighting.
+editor.linehighlight = true
+# Highlight for the current line.
+editor.linehighlight.color = #1C222C
+
+# Caret blinking and caret color.
+editor.caret.color = #FFCC66
+
+# Color to be used for background when 'external editor' enabled.
+editor.external.bgcolor = #39424E
+
+# Selection color.
+editor.selection.color = #293847
+
+# Area that's not in use by the text (replaced with tildes).
+editor.invalid.style = #7e7e7e,bold
+
+# Display End of Line characters.
+editor.eolmarkers = false
+editor.eolmarkers.color = #363E4A
+
+# Bracket/brace highlighting.
+editor.brackethighlight = true
+editor.brackethighlight.color = #293847
+
+
+# SYNTAX
+
+## Method declarations
+editor.keyword1.style = #FFA759,plain
+editor.data_type.style = #FFA759,plain
+
+## Method invocations
+editor.keyword2.style = #FFCC66,plain
+editor.function.style = #FFCC66,plain
+
+## Structures
+editor.keyword3.style = #FFA759,plain
+editor.reserved_word.style = #FFA759,plain
+
+
+## Constants & datatypes
+editor.literal1.style = #5CCFE6,plain
+
+## p5 built in variables: e.g. mouseX, width, pixels
+editor.literal2.style = #5CCFE6,bold
+editor.variable.style = #5CCFE6,plain
+editor.reserved_word_2.style = #5CCFE6,plain
+editor.literal_boolean.style = #5CCFE6,plain
+editor.literal_char.style = #95E6CB,plain
+editor.literal_string_double_quote.style = #BAE67E,plain
+editor.preprocessor.style = #D4BFFF,plain
+
+# Link styling
+editor.url.style = #5CCFE6,underline
+
+# e.g. + - = /
+editor.operator.style = #F29E74,plain
+
+
+# ?? maybe this is for words followed by a colon
+# like in case statements or goto
+editor.label.style = #c594c5,underline
+
+
+# TEXT - COMMENTS
+editor.comment1.style = #5C6773,plain
+editor.comment2.style = #5C6773,bold
+
+
+# LINE STATUS - editor line number status bar at the bottom of the screen
+linestatus.font	   = SansSerif,plain,10
+linestatus.height  = 18
+
+# GUI - PLOTTING
+plotting.bgcolor = #1C222C
+plotting.color = #ffffff
+plotting.graphcolor.size = 3
+plotting.graphcolor.00 = #c594c5
+plotting.graphcolor.01 = #FFCC66
+plotting.graphcolor.02 = #73D0FF
+plotting.graphcolor.03 = #95E6CB
